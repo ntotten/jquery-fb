@@ -21,7 +21,7 @@ $(document).on('fb:initialized', function() {
 $(document).fb('youappid');
 ```
 
-The benefit of this library is that it you can add the initialization code in a single place in your app (such as a layout or master page) and then use the jQuery events to run the appropriate code on specific sites. For example, on your login page you may want to do something like this:
+The benefit of this library is that it you can add the initialization code in a single place in your app (such as a layout or master page) and then use the jQuery events to run the appropriate code on specific pages. For example, on your login page you may want to do something like this:
 
 ```javascript
 
