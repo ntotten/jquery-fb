@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<package xmlns='http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd'>
+    <metadata>
+        <id>jQuery.fb</id>
+        <version>1.0.0</version>
+        <title>jQuery Facebook Plugin</title>
+        <authors>Nathan Totten</authors>
+        <owners>Nathan Totten</owners>
+        <description>jQuery plugin for initializing the Facebook Javascript SDK</description>
+        <language>en-US</language>
+        <licenseUrl>https://github.com/ntotten/jquery-fb/blob/master/LICENSE.txt</licenseUrl>
+        <projectUrl>https://github.com/ntotten/jquery-fb</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <tags>jQuery Facebook FB</tags>
+    </metadata>
+	<files>
+		<file src="jQuery.fb.js" target="content\Scripts\jQuery.fb.js" />
+	</files>
+</package>
