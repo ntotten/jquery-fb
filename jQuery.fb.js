@@ -26,7 +26,7 @@
 	    status     : true, 
 	    cookie     : true,
 	    xfbml      : true,
-	    oauth      : true,
+	    oauth      : true
 	  });
 	  $(document).trigger('fb:initialized');
   	};
