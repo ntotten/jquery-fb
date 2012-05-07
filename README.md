@@ -38,3 +38,13 @@ function fbAuthStatusChange(request) {
 }
 ```
 
+You can also override the default settings of the Facebook initialization method by passing in an options argument.
+
+```javascript
+$(document).fb('yourappid', {
+	status  : true, 
+	cookie  : true,
+	xfbml   : true,
+	oauth   : true
+});
+

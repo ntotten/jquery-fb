@@ -15,7 +15,7 @@
 				status     : true, 
 				cookie     : true,
 				xfbml      : true,
-				oauth      : true/
+				oauth      : true
 		}, options);
 
 		window.fbInit = window.fbInit || false;
