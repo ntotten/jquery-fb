@@ -8,7 +8,15 @@
  */
 
 (function( $ ) {
-  $.fn.fb = function(appId) {
+  $.fn.fb = function(appId, options) {
+
+    var settings = $.extend({
+        appId      : appId,
+        status     : true, 
+        cookie     : true,
+        xfbml      : true,
+        oauth      : true
+    }, options);
 
   	window.fbInit = window.fbInit || false;
   	if (window.fbInit) {
@@ -21,13 +29,7 @@
   	window.fbAsyncInit = function() {
   	  window.fbInit = true;
   	  $(document).trigger('fb:initializing');
-	  FB.init({
-	    appId      : appId,
-	    status     : true, 
-	    cookie     : true,
-	    xfbml      : true,
-	    oauth      : true
-	  });
+  	  FB.init(settings);
 	  $(document).trigger('fb:initialized');
   	};
 
